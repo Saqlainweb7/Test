@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 20% 50% 20% ;
+}
+
+.header {
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border: 3px solid black;
+}
+.sidebar {
+    background-color: red;
+    border: 3px solid black;
+}
+.main {
+    background-color: blueviolet;
+    border: 3px solid black;
+}
+.footer {
+    background-color: green;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border: 3px solid black;
+}
